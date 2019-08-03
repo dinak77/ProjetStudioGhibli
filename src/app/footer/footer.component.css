@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'Korean';
+    src: url('../../assets/fonts/Korean/Korean.ttf') format("truetype");
+  }
+  
+  * {
+    font-family: 'Korean';
+    font-size: 1rem;
+  }
+
+  .footer {
+    color: white;
+    background-color: #00BFFF;
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+  }
+
+  .logoGithub{
+      margin-left: 5%;
+  }
+
+  .rounded:hover {
+    color: black;
+  }
+    
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: black;
+    text-decoration: none;
+  }
+
+  li {
+    list-style: none;
+  }

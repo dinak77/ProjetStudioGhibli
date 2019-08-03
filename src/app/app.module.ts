@@ -6,6 +6,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
 import { FondateurComponent } from './fondateur/fondateur.component';
+import { FondEcranComponent } from './fond-ecran/fond-ecran.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { FondateurComponent } from './fondateur/fondateur.component';
     HomeComponent,
     FooterComponent,
     FondateurComponent,
+    FondEcranComponent,
   ],
   imports: [
     BrowserModule,

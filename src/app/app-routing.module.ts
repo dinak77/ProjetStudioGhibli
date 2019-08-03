@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { HomeComponent } from './home/home.component';
 import { FondateurComponent } from './fondateur/fondateur.component';
 import { FondEcranComponent } from './fond-ecran/fond-ecran.component';
+import { LieuxComponent } from './lieux/lieux.component';
 
 const routes: Routes = [
 
@@ -11,6 +12,7 @@ const routes: Routes = [
     { path: 'home', component: HomeComponent},
     { path: 'fondateur', component: FondateurComponent},
     { path: 'fond-ecran', component: FondEcranComponent},
+    { path: 'lieux', component: LieuxComponent },
 ];
 
 @NgModule({

@@ -7,6 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
 import { FondateurComponent } from './fondateur/fondateur.component';
 import { FondEcranComponent } from './fond-ecran/fond-ecran.component';
+import { LieuxComponent } from './lieux/lieux.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { FondEcranComponent } from './fond-ecran/fond-ecran.component';
     FooterComponent,
     FondateurComponent,
     FondEcranComponent,
+    LieuxComponent,
   ],
   imports: [
     BrowserModule,

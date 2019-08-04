@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'Korean';
+    src: url('../../assets/fonts/Korean/Korean.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: 'Wonder';
+    src: url('../../assets/fonts/Wonder/Wonder.ttf') format("truetype");
+}
+
+* {
+    font-family: 'Wonder';
+    font-size: 1.2rem;
+    margin-top: 3%;
+}
+
+h2 {
+    font-family: 'Korean';
+    font-size: 4rem;
+    text-align: center;
+    color: #00BFFF;
+    font-weight: bold;
+    text-shadow: 2px 0 0 white, 2px 2px 0 white, 0 2px 0 white, -2px 2px 0 white, -2px 0 0 white, -2px -2px 0 white, 0 -2px 0 white, 2px -2px 0 white;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+h3 {
+    font-family: 'Korean';
+    font-size: 2.5rem;
+    color: grey;
+    font-weight: bolder;
+    text-shadow: 2px 0 0 white, 2px 2px 0 white, 0 2px 0 white, -2px 2px 0 white, -2px 0 0 white, -2px -2px 0 white, 0 -2px 0 white, 2px -2px 0 white;
+}
+
+.LgMetrages {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+@media (min-width: 768px) {
+    .img-fluid {
+        float: left;
+        margin-right: 3%;
+    }
+    .img-fluid1 {
+        float: right;
+        margin-left: 3%;
+    }
+    .Kiki {
+        margin-top: 8%;
+        margin-bottom: 6%;
+    }
+    .Rosso {
+        margin-top: 8%;
+        margin-bottom: 6%;
+    }
+    .Pompoko {
+        margin-top: 8%;
+        margin-bottom: 6%;
+    }
+    .Mononoke {
+        margin-top: 6%;
+        margin-bottom: 5%;
+    }
+    .Tortue {
+        margin-bottom: 5%;
+    }
+}

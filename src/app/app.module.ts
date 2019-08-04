@@ -10,6 +10,7 @@ import { FondEcranComponent } from './fond-ecran/fond-ecran.component';
 import { LieuxComponent } from './lieux/lieux.component';
 import { CtMetragesComponent } from './ct-metrages/ct-metrages.component';
 import { LgMetragesComponent } from './lg-metrages/lg-metrages.component';
+import { MiyazakiComponent } from './miyazaki/miyazaki.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { LgMetragesComponent } from './lg-metrages/lg-metrages.component';
     LieuxComponent,
     CtMetragesComponent,
     LgMetragesComponent,
+    MiyazakiComponent,
   ],
   imports: [
     BrowserModule,

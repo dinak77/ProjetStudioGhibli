@@ -7,6 +7,7 @@ import { FondEcranComponent } from './fond-ecran/fond-ecran.component';
 import { LieuxComponent } from './lieux/lieux.component';
 import { CtMetragesComponent } from './ct-metrages/ct-metrages.component';
 import { LgMetragesComponent } from './lg-metrages/lg-metrages.component';
+import { MiyazakiComponent } from './miyazaki/miyazaki.component';
 
 const routes: Routes = [
 
@@ -17,6 +18,7 @@ const routes: Routes = [
     { path: 'lieux', component: LieuxComponent },
     { path: 'CtMetrages', component: CtMetragesComponent },
     { path: 'LgMetrages', component: LgMetragesComponent },
+    { path: 'Miyazaki', component: MiyazakiComponent },
 ];
 
 @NgModule({

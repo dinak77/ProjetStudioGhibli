@@ -8,6 +8,7 @@ import { FooterComponent } from './footer/footer.component';
 import { FondateurComponent } from './fondateur/fondateur.component';
 import { FondEcranComponent } from './fond-ecran/fond-ecran.component';
 import { LieuxComponent } from './lieux/lieux.component';
+import { CtMetragesComponent } from './ct-metrages/ct-metrages.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { LieuxComponent } from './lieux/lieux.component';
     FondateurComponent,
     FondEcranComponent,
     LieuxComponent,
+    CtMetragesComponent,
   ],
   imports: [
     BrowserModule,

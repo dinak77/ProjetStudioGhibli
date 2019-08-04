@@ -5,6 +5,7 @@ import { HomeComponent } from './home/home.component';
 import { FondateurComponent } from './fondateur/fondateur.component';
 import { FondEcranComponent } from './fond-ecran/fond-ecran.component';
 import { LieuxComponent } from './lieux/lieux.component';
+import {CtMetragesComponent } from './ct-metrages/ct-metrages.component';
 
 const routes: Routes = [
 
@@ -13,6 +14,7 @@ const routes: Routes = [
     { path: 'fondateur', component: FondateurComponent},
     { path: 'fond-ecran', component: FondEcranComponent},
     { path: 'lieux', component: LieuxComponent },
+    { path: 'CtMetrages', component: CtMetragesComponent },
 ];
 
 @NgModule({

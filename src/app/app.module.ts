@@ -15,6 +15,7 @@ import { TakahataComponent } from './takahata/takahata.component';
 import { GoroMiyazakiComponent } from './goro-miyazaki/goro-miyazaki.component';
 import { YonebayashiComponent } from './yonebayashi/yonebayashi.component';
 import { KondoComponent } from './kondo/kondo.component';
+import { MochizukiComponent } from './mochizuki/mochizuki.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +33,7 @@ import { KondoComponent } from './kondo/kondo.component';
     GoroMiyazakiComponent,
     YonebayashiComponent,
     KondoComponent,
+    MochizukiComponent,
   ],
   imports: [
     BrowserModule,

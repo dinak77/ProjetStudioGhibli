@@ -12,6 +12,7 @@ import { CtMetragesComponent } from './ct-metrages/ct-metrages.component';
 import { LgMetragesComponent } from './lg-metrages/lg-metrages.component';
 import { MiyazakiComponent } from './miyazaki/miyazaki.component';
 import { TakahataComponent } from './takahata/takahata.component';
+import { GoroMiyazakiComponent } from './goro-miyazaki/goro-miyazaki.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { TakahataComponent } from './takahata/takahata.component';
     LgMetragesComponent,
     MiyazakiComponent,
     TakahataComponent,
+    GoroMiyazakiComponent,
   ],
   imports: [
     BrowserModule,

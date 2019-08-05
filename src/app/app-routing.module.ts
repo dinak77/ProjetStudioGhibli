@@ -11,6 +11,7 @@ import { MiyazakiComponent } from './miyazaki/miyazaki.component';
 import { TakahataComponent } from './takahata/takahata.component';
 import { GoroMiyazakiComponent } from './goro-miyazaki/goro-miyazaki.component';
 import { YonebayashiComponent } from './yonebayashi/yonebayashi.component';
+import { KondoComponent } from './kondo/kondo.component';
 
 const routes: Routes = [
 
@@ -25,6 +26,7 @@ const routes: Routes = [
     { path: 'Takahata', component: TakahataComponent },
     { path: 'Goro-Miyazaki', component: GoroMiyazakiComponent },
     { path: 'Yonebayashi', component: YonebayashiComponent },
+    { path: 'Kondo', component: KondoComponent },
 ];
 
 @NgModule({

@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'Korean';
+    src: url('../../assets/fonts/Korean/Korean.ttf') format("truetype");
+  }
+
+  @font-face {
+    font-family: 'Wonder';
+    src: url('../../assets/fonts/Wonder/Wonder.ttf') format("truetype");
+  }
+  
+  
+h2{
+    font-family: 'Korean';
+    font-size: 4rem;
+    text-align: center;
+    color: #00BFFF;
+    font-weight: bold;
+    text-shadow: 2px 0 0 white, 2px 2px 0 white, 0 2px 0 white, -2px 2px 0 white, -2px 0 0 white, -2px -2px 0 white, 0 -2px 0 white, 2px -2px 0 white;
+  }
+
+  h3{
+    font-family: 'Korean';
+    font-size: 2rem;
+    color: grey;
+    font-weight: bolder;
+    text-shadow: 2px 0 0 white, 2px 2px 0 white, 0 2px 0 white, -2px 2px 0 white, -2px 0 0 white, -2px -2px 0 white, 0 -2px 0 white, 2px -2px 0 white;
+    margin-left: 2%;
+    }
+
+p, li{
+    font-family: 'Wonder';
+    font-size: 1.2rem;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+.Hayao{
+    color: black;  
+    text-shadow: 2px 0 0 white, 2px 2px 0 white, 0 2px 0 white, -2px 2px 0 white, -2px 0 0 white, -2px -2px 0 white, 0 -2px 0 white, 2px -2px 0 white;
+}
+
+.Isao{
+    color: white;
+    text-shadow: 2px 0 0 black, 2px 2px 0 black, 0 2px 0 black, -2px 2px 0 black, -2px 0 0 black, -2px -2px 0 black, 0 -2px 0 black, 2px -2px 0 black;
+}
+
+.Hayao-Fonda{
+    color: white; 
+    text-shadow: 2px 0 0 black, 2px 2px 0 black, 0 2px 0 black, -2px 2px 0 black, -2px 0 0 black, -2px -2px 0 black, 0 -2px 0 black, 2px -2px 0 black;
+}
+
+.Isao-Fonda{
+    color: black;   
+    text-shadow: 2px 0 0 white, 2px 2px 0 white, 0 2px 0 white, -2px 2px 0 white, -2px 0 0 white, -2px -2px 0 white, 0 -2px 0 white, 2px -2px 0 white;
+}
